@@ -1,0 +1,19 @@
+#menu{
+  width:150px;
+}
+A.stra2{
+	DISPLAY: block;
+	text-align: left; 
+	padding-left: 4px; 
+	width:auto;  	
+	line-height:25px; 	
+	height:25px; 	
+	border-bottom:1px solid #fff; 
+	text-decoration:none; 
+	background-color:#339900; 
+	color:#fff
+}
+A.stra2:hover {
+         	TEXT-DECORATION: none;
+	 	background-color:#33ff00; 
+		font-weight:bold; }

@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+	<TITLE>inter</TITLE>
+	<META NAME="GENERATOR" CONTENT="LibreOffice 3.5  (Linux)">
+	<META NAME="CREATED" CONTENT="20120919;12094000">
+	<META NAME="CHANGED" CONTENT="20120919;12130900">
+	<STYLE TYPE="text/css">
+	<!--
+		@page { margin: 2cm }
+		P { margin-bottom: 0.21cm }
+		H1 { margin-bottom: 0.21cm }
+		H1.western { font-family: "Liberation Serif", serif }
+		H1.cjk { font-family: "WenQuanYi Micro Hei" }
+		H1.ctl { font-family: "Lohit Hindi" }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="it-IT" DIR="LTR">
+<H1 CLASS="western">ciao mondo</H1>
+<P>vediamo alcuni esempi: questo Ã¨ <U>sottolineato</U> mentre
+<BR>questo Ã¨ <I>corsivo</I>.</P>
+<P>questo e' un `altro paragrafo</P>
+<P><IMG SRC="http://localhost/n_inter_varie-2075254.jpg" NAME="immagini1" ALIGN=BOTTOM WIDTH=400 HEIGHT=300 BORDER=0></P>
+</BODY>
+</HTML>
+<h1>esempi di liste</h1>
+<ul>
+<li>mele</li>
+<li>pere</li>
+<li>banane</li><br>
+
+<ol>
+<li>mele</li>
+<li>pere</li>
+<li>banane</li>
+
+<ul>
+  <li>
+    Verdure
+    <ul>
+      <li>lattuga</li>
+      <li>carote</li>
+    </ul>
+  </li>
+
+ <li>
+   frutta
+    <ul>
+      <li>banana</li>
+      <li>lampone</li>
+    </ul>
+ </li>
+  <li>
+    minerali
+    <ul>
+      <li>
+        cristalli
+        <ul>
+             <li>diamante</li>
+      </ul>
+      </li>
+      <li>
+        metalli
+        <ul>
+             <li>oro</li>    
+        </ul>
+      </li>
+     
+
+

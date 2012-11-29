@@ -1,0 +1,44 @@
+h1 { border: 1px solid black; }
+
+h2 { border: 1px solid purple; }
+
+p { border: 1px solid brown; }
+
+h1.titolo_rosso { color: red; }
+
+
+
+#sottotitolo
+{
+  border: 1px solid green;
+}
+
+.sottolineato
+{
+  text-decoration:underline;
+  border: 1px solid green;
+  font-weight: bolder;
+  margin-left: 10px;
+  padding-top: 15px;
+}
+
+li { 
+	display: inline;
+	background-image: url(btn_background.png);
+	border-radius: 5px;
+	padding: 0 5px;
+}
+
+li:hover { 
+	background-image: url(btn_background2.png);
+}
+
+li a:hover { 
+	color: blue;
+}
+
+li a
+{
+  text-decoration: none;
+  color: navy;
+}

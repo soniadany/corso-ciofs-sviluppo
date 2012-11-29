@@ -1,0 +1,270 @@
+Appunti di luca
+amala pazza inter amala
+sonia@inter:~$ git
+Il programma "git" non è attualmente installato.  È possibile installarlo digitando:
+sudo apt-get install git
+sonia@inter:~$ ^C
+sonia@inter:~$ sudo apt-get install git
+[sudo] password for sonia: 
+Lettura elenco dei pacchetti... Fatto
+Generazione albero delle dipendenze       
+Lettura informazioni sullo stato... Fatto
+I seguenti pacchetti sono stati installati automaticamente e non sono più richiesti:
+  linux-headers-3.2.0-32 linux-headers-3.2.0-32-generic-pae
+Usare "apt-get autoremove" per rimuoverli.
+I seguenti pacchetti saranno inoltre installati:
+  git-man liberror-perl
+Pacchetti suggeriti:
+  git-daemon-run git-daemon-sysvinit git-doc git-el git-arch git-cvs git-svn git-email
+  git-gui gitk gitweb
+I seguenti pacchetti NUOVI saranno installati:
+  git git-man liberror-perl
+0 aggiornati, 3 installati, 0 da rimuovere e 32 non aggiornati.
+È necessario scaricare 6617 kB di archivi.
+Dopo quest'operazione, verranno occupati 15,2 MB di spazio su disco.
+Continuare [S/n]? s
+Scaricamento di:1 http://it.archive.ubuntu.com/ubuntu/ precise/main liberror-perl all 0.17-1 [23,8 kB]
+Scaricamento di:2 http://it.archive.ubuntu.com/ubuntu/ precise/main git-man all 1:1.7.9.5-1 [630 kB]
+Scaricamento di:3 http://it.archive.ubuntu.com/ubuntu/ precise/main git i386 1:1.7.9.5-1 [5963 kB]
+Recuperati 6617 kB in 16s (408 kB/s)                                                     
+Selezionato il pacchetto liberror-perl non precedentemente selezionato.
+(Lettura del database... 247711 file e directory attualmente installati.)
+Estrazione di liberror-perl (da .../liberror-perl_0.17-1_all.deb)...
+Selezionato il pacchetto git-man non precedentemente selezionato.
+Estrazione di git-man (da .../git-man_1%3a1.7.9.5-1_all.deb)...
+Selezionato il pacchetto git non precedentemente selezionato.
+Estrazione di git (da .../git_1%3a1.7.9.5-1_i386.deb)...
+Elaborazione dei trigger per man-db...
+Configurazione di liberror-perl (0.17-1)...
+Configurazione di git-man (1:1.7.9.5-1)...
+Configurazione di git (1:1.7.9.5-1)...
+sonia@inter:~$ git
+usage: git [--version] [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p|--paginate|--no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [-c name=value] [--help]
+           <command> [<args>]
+
+The most commonly used git commands are:
+   add        Add file contents to the index
+   bisect     Find by binary search the change that introduced a bug
+   branch     List, create, or delete branches
+   checkout   Checkout a branch or paths to the working tree
+   clone      Clone a repository into a new directory
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   fetch      Download objects and refs from another repository
+   grep       Print lines matching a pattern
+   init       Create an empty git repository or reinitialize an existing one
+   log        Show commit logs
+   merge      Join two or more development histories together
+   mv         Move or rename a file, a directory, or a symlink
+   pull       Fetch from and merge with another repository or a local branch
+   push       Update remote refs along with associated objects
+   rebase     Forward-port local commits to the updated upstream head
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+   show       Show various types of objects
+   status     Show the working tree status
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+See 'git help <command>' for more information on a specific command.
+sonia@inter:~$ git --global user.nome "sonia buscarino"
+Unknown option: --global
+usage: git [--version] [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p|--paginate|--no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [-c name=value] [--help]
+           <command> [<args>]
+sonia@inter:~$ git --global user.email "sonia.buscarino@pec.it"
+Unknown option: --global
+usage: git [--version] [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p|--paginate|--no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [-c name=value] [--help]
+           <command> [<args>]
+sonia@inter:~$ git cinfig --global user.nome "sonia buscarino"
+git: 'cinfig' is not a git command. See 'git --help'.
+
+Did you mean this?
+	config
+sonia@inter:~$ git cinfig --global user.name "sonia buscarino"
+git: 'cinfig' is not a git command. See 'git --help'.
+
+Did you mean this?
+	config
+sonia@inter:~$ git config --global user.name "sonia buscarino"
+sonia@inter:~$ git config --global user.email "sonia.buscarino@pec.it"
+sonia@inter:~$ cd /home/sviluppo$
+bash: cd: /home/sviluppo$: File o directory non esistente
+sonia@inter:~$ cd /home/
+luca/  sonia/ 
+sonia@inter:~$ cd /home/sonia/sviluppo/
+sonia@inter:~/sviluppo$ ls -a
+.  ..
+sonia@inter:~/sviluppo$ git init
+Initialized empty Git repository in /home/sonia/sviluppo/.git/
+sonia@inter:~/sviluppo$ sudo apt-get install tree
+[sudo] password for sonia: 
+Sorry, try again.
+[sudo] password for sonia: 
+Lettura elenco dei pacchetti... Fatto
+Generazione albero delle dipendenze       
+Lettura informazioni sullo stato... Fatto
+I seguenti pacchetti sono stati installati automaticamente e non sono più richiesti:
+  linux-headers-3.2.0-32 linux-headers-3.2.0-32-generic-pae
+Usare "apt-get autoremove" per rimuoverli.
+I seguenti pacchetti NUOVI saranno installati:
+  tree
+0 aggiornati, 1 installati, 0 da rimuovere e 32 non aggiornati.
+È necessario scaricare 27,6 kB di archivi.
+Dopo quest'operazione, verranno occupati 98,3 kB di spazio su disco.
+Scaricamento di:1 http://it.archive.ubuntu.com/ubuntu/ precise/universe tree i386 1.5.3-2 [27,6 kB]
+Recuperati 27,6 kB in 0s (61,7 kB/s)
+Selezionato il pacchetto tree non precedentemente selezionato.
+(Lettura del database... 248360 file e directory attualmente installati.)
+Estrazione di tree (da .../archives/tree_1.5.3-2_i386.deb)...
+Elaborazione dei trigger per man-db...
+Configurazione di tree (1.5.3-2)...
+sonia@inter:~/sviluppo$ git status
+# On branch master
+#
+# Initial commit
+#
+nothing to commit (create/copy files and use "git add" to track)
+sonia@inter:~/sviluppo$ touch pippo
+sonia@inter:~/sviluppo$ ll pippo
+-rw-rw-r-- 1 sonia sonia 0 nov 29 11:46 pippo
+sonia@inter:~/sviluppo$ ls
+pippo
+sonia@inter:~/sviluppo$ git status
+# On branch master
+#
+# Initial commit
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	pippo
+nothing added to commit but untracked files present (use "git add" to track)
+sonia@inter:~/sviluppo$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+sonia@inter:~/sviluppo$ git add pippo
+sonia@inter:~/sviluppo$ git status
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#   (use "git rm --cached <file>..." to unstage)
+#
+#	new file:   pippo
+#
+sonia@inter:~/sviluppo$ git commit -m "aggiunto file pippo"
+[master (root-commit) e627517] aggiunto file pippo
+ 0 files changed
+ create mode 100644 pippo
+sonia@inter:~/sviluppo$ git status
+# On branch master
+nothing to commit (working directory clean)
+sonia@inter:~/sviluppo$ git log
+commit e627517fd8e479acdf99cd45a690cbe45f561100
+Author: sonia buscarino <sonia.buscarino@pec.it>
+Date:   Thu Nov 29 11:52:36 2012 +0100
+
+    aggiunto file pippo
+sonia@inter:~/sviluppo$ pico
+sonia@inter:~/sviluppo$ cat pippo
+amala pazza inter amala
+sonia@inter:~/sviluppo$ php -pippo
+Usage: php [options] [-f] <file> [--] [args...]
+       php [options] -r <code> [--] [args...]
+       php [options] [-B <begin_code>] -R <code> [-E <end_code>] [--] [args...]
+       php [options] [-B <begin_code>] -F <file> [-E <end_code>] [--] [args...]
+       php [options] -- [args...]
+       php [options] -a
+
+  -a               Run as interactive shell
+  -c <path>|<file> Look for php.ini file in this directory
+  -n               No php.ini file will be used
+  -d foo[=bar]     Define INI entry foo with value 'bar'
+  -e               Generate extended information for debugger/profiler
+  -f <file>        Parse and execute <file>.
+  -h               This help
+  -i               PHP information
+  -l               Syntax check only (lint)
+  -m               Show compiled in modules
+  -r <code>        Run PHP <code> without using script tags <?..?>
+  -B <begin_code>  Run PHP <begin_code> before processing input lines
+  -R <code>        Run PHP <code> for every input line
+  -F <file>        Parse and execute <file> for every input line
+  -E <end_code>    Run PHP <end_code> after processing all input lines
+  -H               Hide any passed arguments from external tools.
+  -s               Output HTML syntax highlighted source.
+  -v               Version number
+  -w               Output source with stripped comments and whitespace.
+  -z <file>        Load Zend extension <file>.
+
+  args...          Arguments passed to script. Use -- args when first argument
+                   starts with - or script is read from stdin
+
+  --ini            Show configuration file names
+
+  --rf <name>      Show information about function <name>.
+  --rc <name>      Show information about class <name>.
+  --re <name>      Show information about extension <name>.
+  --ri <name>      Show configuration for extension <name>.
+
+sonia@inter:~/sviluppo$ php -q pippo
+amala pazza inter amala
+sonia@inter:~/sviluppo$ git status
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   pippo
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+sonia@inter:~/sviluppo$ git commit _m "prova"
+error: pathspec '_m' did not match any file(s) known to git.
+error: pathspec 'prova' did not match any file(s) known to git.
+sonia@inter:~/sviluppo$ git commit -m "prova"
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   pippo
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+sonia@inter:~/sviluppo$ git commit -m "aggiunto codice al file pippo"
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   pippo
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+sonia@inter:~/sviluppo$ git add pippo
+sonia@inter:~/sviluppo$ cat pippo
+amala pazza inter amala
+sonia@inter:~/sviluppo$ git commit -m "aggiunto testo"
+[master ae4d1e6] aggiunto testo
+ 1 file changed, 1 insertion(+)
+sonia@inter:~/sviluppo$ git log
+commit ae4d1e60a9df57d337a9bd5fade3cb8c6a36e639
+Author: sonia buscarino <sonia.buscarino@pec.it>
+Date:   Thu Nov 29 12:22:20 2012 +0100
+
+    aggiunto testo
+
+commit e627517fd8e479acdf99cd45a690cbe45f561100
+Author: sonia buscarino <sonia.buscarino@pec.it>
+Date:   Thu Nov 29 11:52:36 2012 +0100
+
+    aggiunto file pippo
+sonia@inter:~/sviluppo$ 
+
